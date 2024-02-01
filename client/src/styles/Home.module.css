@@ -1,0 +1,148 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #161616;
+    font-family: "Golos, sans-serif, Arial, Helvetica";
+}
+.header{
+    width: 100%;
+    background-color: #111111;
+}
+.topHeader{
+    display: flex;
+    align-items: center;
+    color: #bbbbbb;
+    height: 3rem;
+    font-size: 0.85rem;
+    padding: 0 11.5rem;
+    border-bottom: 1 px solid #222222;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3.3rem;
+    padding: 0 11.5rem;
+    border-bottom: 1px solid #222222;
+}
+.logo{
+    width: 9rem;
+    height: auto;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #cccccc;
+    width: 44em;
+    letter-spacing: 0.01rem;
+}
+
+.menu>p{
+    display: flex;
+    align-items: center;
+}
+
+.menu>p:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.signIn{
+    justify-content: space-between;
+    width: 4.5rem;
+}
+
+.profile{
+    width:1.1rem
+}
+
+.arrow{
+    display: flex;
+    width: 1rem;
+}
+
+.searchContainer{
+    width:100%
+}
+
+.searchHeader{
+    display: flex;
+    background-color: rgba(red, green, blue, alpha);
+    background-image: url('');
+    height: 17rem;
+    padding: 0 11.5rem;
+    padding-top: 3rem;
+}
+-----------------------
+
+------------------------
+.searchSection > h3{
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
+    letter-spacing: 0.02rem;
+
+}
+.input_section{
+    display: flex;
+    align-items: center;
+    width: 50.5rem;
+    height: 3rem;
+    border: 1px solid #191919;
+    border-radius: 0.3rem;
+    background-color: #111111;
+}
+
+.inputField{
+    width: 48rem;
+    color: #ffffff;
+    height: 2rem;
+    padding-left: 2rem;
+    border: none;
+    background-color: red;
+    font-size: 1rem;
+}
+
+.inputField::placeholder{
+    color: #bbbbbb;
+    font-size: 1rem;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+
+}
+
+.maginifiying{
+    width: 1.1rem;
+}
+
+.searchResults{
+    background-color: #111111;
+    margin: 2rem 11.5rem;
+    border: 1px solid #222222;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0 1.5rem #ffffff09 ;
+    padding: 1rem;
+}
+
+.searchResults>p{
+    letter-spacing: 0.02rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #191919;
+    margin-bottom: 1rem;
+}
