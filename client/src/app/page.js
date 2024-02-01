@@ -13,8 +13,9 @@ export default function Home() {
         <link rel="icon" href="mini-logo.png"/>
       </Head>
       <section className={styles.main}>
-        <Header />
-        <Search/>
+        <p>Next Js</p>
+        {/* <Header />
+        <Search/> */}
       </section>
     </>
   );
