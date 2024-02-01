@@ -5,7 +5,7 @@ return(
     <section className={styles.searchResults}>
 
         <p className={styles.amountofTrnx}>Latest 25 Transaction out of {""}
-        <span className={styles.blueText}>{props.result.result.length}</span>
+        <span className={styles.blueText}>{props?.result?.result?.length}</span>
         {} transactions
          </p>
          <table className={styles.txnSection}>
